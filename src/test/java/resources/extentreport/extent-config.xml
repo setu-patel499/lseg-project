@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme --> <!-- standard or dark --> <!-- Important 1 - what theme do you want in report, type keywords 'standard' or 'dark' -->
+        <theme>standard</theme>
+
+        <!-- document encoding -->  <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- protocol for script and stylesheets -->   <!-- defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- ****************************CUCUMBER NOTE- change Document title and Report name as per project *******************************************-->
+        <!-- title of the document -->  <!-- Important 3 report document Title -->
+        <documentTitle>lseg- Cucumber Framework</documentTitle>
+
+        <!-- report name - displayed at top-nav --> <!-- Important 2 what report name would you want? give it here-->
+        <reportName>lseg- Cucumber Report</reportName>
+        <!-- *******************************************************************************************************************************************-->
+
+        <!-- global date format override -->  <!-- defaults to yyyy-MM-dd -->
+        <dateFormat>yyyy-MM-dd</dateFormat>
+
+        <!-- global time format override -->   <!-- defaults to HH:mm:ss -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+        $(document).ready(function() {
+
+        });
+      ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+
+      ]]>
+        </styles>
+    </configuration>
+</extentreports>

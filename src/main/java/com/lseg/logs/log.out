@@ -1,0 +1,6 @@
+2022-07-14 15:07:773 INFO  ManageDriver :32 - launching chrome browser
+2022-07-14 15:07:168 INFO  HomePage :35 - Clicking on acceptCookies : [[ChromeDriver: chrome on WINDOWS (e4e488c7454bae5c580f5fc671afd857)] -> xpath: //span[contains(text(),'Accept all')]]
+2022-07-14 15:07:720 INFO  ManageDriver :32 - launching chrome browser
+2022-07-14 15:07:720 INFO  HomePage :35 - Clicking on acceptCookies : [[ChromeDriver: chrome on WINDOWS (a142ba3f553ab7ff5776588b234be1fe)] -> xpath: //span[contains(text(),'Accept all')]]
+2022-07-14 15:07:939 INFO  HomePage :40 - MouseHovering to resourcesTab  :[[ChromeDriver: chrome on WINDOWS (a142ba3f553ab7ff5776588b234be1fe)] -> xpath: //li[@role='none']//a[@role='menuitem'][normalize-space()='Resources']]
+2022-07-14 15:07:985 INFO  HomePage :46 - Getting text from : [[ChromeDriver: chrome on WINDOWS (a142ba3f553ab7ff5776588b234be1fe)] -> xpath: //div[@class='field field-name-field-comco-lp-headline field-type-text field-wrapper']]
